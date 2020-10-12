@@ -1,4 +1,6 @@
-
+/**
+ * Classe Elemento
+ */
 public class Elemento {
     public Cliente dadosCliente;
     public Elemento proximo;

@@ -1,3 +1,6 @@
+/**
+ * Classe Lista para listar os dados
+ */
 public class Lista {
     public Elemento primeiro;
     public Elemento ultimo;
