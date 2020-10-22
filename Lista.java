@@ -16,4 +16,25 @@ public class Lista {
         ultimo = novoCliente;
     }
 
+    public boolean vazio(){
+        return (ultimo == primeiro);
+    }
+
+    public Cliente imprimir(){
+        if (vazio()) {
+            return null;
+        }
+        else{
+            Elemento aux = primeiro.proximo;
+            primeiro.proximo = aux.proximo;
+            if (aux == ultimo) {
+                ultimo = primeiro;
+            }
+            else{
+                aux.proximo = null;
+            }
+            return aux.dadosCliente;
+        }
+    }
+
 }
