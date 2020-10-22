@@ -10,8 +10,8 @@ public class Lista {
         ultimo = primeiro;
     }
 
-    public void inserir(Cliente dadosCliente) {
-        Elemento novoCliente = new Elemento(dadosCliente);
+    public void inserir(Cliente dados) {
+        Elemento novoCliente = new Elemento(dados);
         ultimo.proximo = novoCliente;
         ultimo = novoCliente;
     }

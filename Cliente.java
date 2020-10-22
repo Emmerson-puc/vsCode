@@ -1,3 +1,5 @@
+
+
 /**
  * Classe Cliente estrutura de dados
  */
@@ -13,5 +15,10 @@ public class Cliente {
         this.nome = nomCliente;
         this.nickname = nickCliente;
         this.senha = senhaCliente;
+    }
+
+    public String toString(){
+        String aux = CPF + nome + nickname + senha;
+        return aux;
     }
 }

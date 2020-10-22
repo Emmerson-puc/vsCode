@@ -1,2 +1,26 @@
 1;Formula1;PC;2019-08-15;109.9
 2;FIFA;PS4;2020-10-11;300.00
+3;God of War;PS4;2019-01-28;150.00
+4;The Last of Us;PS4;2020-02-20;170.00
+5;Final Fantasy IVX;PS4;2020-05-20;175.00
+6;Doom Eternal;PS4;2020-06-18;160.00
+7;Avengers;PC;2020-01-05;165.00
+8;Ghost of Tsushima;PS4;2020-06-04;185.00
+9;Resident Evil;PS4;2020-06-08;190.00
+10;Watch Dogs Legion;PC;2020-05-26;195.00
+11;Nioh 2;PS4;2020-07-25;145.00
+12;Dragon Ball;PS4;2020-08-08;146.00
+13;Dreams;PS4;2020-05-27;135.00
+14;Call of Duty;PS4;2020-07-19;140.00
+15;Iron Man;PS4;2020-04-24;155.00
+16;Gears of War 5;Xbox One;2019-05-26;160.00
+17;Fifa19;Xbox One;2019-04-26;165.00
+18;Devil May Cry;Xbox One;2019-04-30;170.00
+19;Metro Exodus;Xbox One;2019-09-25;175.00
+20;Anthem;PC;2019-03-25;185.00
+21;Rage 2;Xbox One;2019-10-21;190.00
+22;Mortal Kombat;Xbox One;2019-08-22;185.00
+23;Need for speed;PC;2019-08-21;186.00
+24;Jump Force;Xbox One;2019-08-22;195.00
+25;Session;Xbox One;2019-09-23;175.00
+26;Dirt Rally 2.0;PC;2019-11-25;170.00

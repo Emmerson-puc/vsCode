@@ -13,4 +13,9 @@ public class Jogos{
         this.ano_Lancamento = anoLan;
         this.preco = price;
     }
+
+    public String toString(){
+        String aux = idJogo + nomeJogo + plataforma + ano_Lancamento + preco;
+        return aux;
+    }
 }
