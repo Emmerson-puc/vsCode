@@ -18,7 +18,7 @@ public class Cliente {
     }
 
     public String toString(){
-        String aux = CPF + nome + nickname + senha;
+        String aux = "CPF: " + CPF + " Nome Cliente: " + nome + " Apelido: " +  nickname + " Senha: " + senha;
         return aux;
     }
 }

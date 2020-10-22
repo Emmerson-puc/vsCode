@@ -15,7 +15,7 @@ public class Jogos{
     }
 
     public String toString(){
-        String aux = idJogo + nomeJogo + plataforma + ano_Lancamento + preco;
+        String aux = "Id do Jogo: " + idJogo + " Nome do Jogo: " + nomeJogo + " Plataforma: " + plataforma + " Ano de Lançamento: " + ano_Lancamento + " Preço: " + preco;
         return aux;
     }
 }

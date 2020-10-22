@@ -23,8 +23,8 @@ public class App {
             testeClientes.inserir(dados);
             testeJogos.inserir_Jogos(dadosGame);
 
-            System.out.println(dados.toString());
-            System.out.println(dadosGame.toString());
+            //System.out.println(dados.toString());
+           // System.out.println(dadosGame.toString());
 
         }
 
