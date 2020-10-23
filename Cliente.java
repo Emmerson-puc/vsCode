@@ -1,7 +1,6 @@
 
-
 /**
- * Classe Cliente estrutura de dados
+ * Classe de dados Cliente
  */
 
 public class Cliente {
@@ -10,15 +9,26 @@ public class Cliente {
     public String nickname;
     public String senha;
 
-    public  Cliente(String CPFCliente, String nomCliente, String nickCliente, String senhaCliente){
+    /**
+     * Construtor da classe Cliente
+     * 
+     * @param CPFCliente   CPF único
+     * @param nomCliente   nome do Cliente
+     * @param nickCliente  Apelodo escolhido pelo Cliente
+     * @param senhaCliente Senha do Cliente
+     */
+    public Cliente(String CPFCliente, String nomCliente, String nickCliente, String senhaCliente) {
         this.CPF = CPFCliente;
         this.nome = nomCliente;
         this.nickname = nickCliente;
         this.senha = senhaCliente;
     }
 
-    public String toString(){
-        String aux = "CPF: " + CPF + " Nome Cliente: " + nome + " Apelido: " +  nickname + " Senha: " + senha;
+    /**
+     * Método String para imprimir os dados formatados
+     */
+    public String toString() {
+        String aux = "CPF: " + CPF + " Nome Cliente: " + nome + " Apelido: " + nickname + " Senha: " + senha;
         return aux;
     }
 }

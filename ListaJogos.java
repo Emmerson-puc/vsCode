@@ -1,33 +1,52 @@
+/**
+ * Classe de Lista
+ */
 public class ListaJogos {
     public ElemJogos primeiro;
     public ElemJogos ultimo;
 
+    /**
+     * Construtor da Classe Lista
+     */
     public ListaJogos() {
         primeiro = new ElemJogos(null);
         ultimo = primeiro;
     }
 
-    public void inserir_Jogos(Jogos dadosjogos ) {
+    /**
+     * Método para inserir os dados dos jogos na lista
+     * 
+     * @param dadosjogos Dados dos jogos
+     */
+    public void inserir_Jogos(Jogos dadosjogos) {
         ElemJogos novoJogo = new ElemJogos(dadosjogos);
         ultimo.proximo = novoJogo;
         ultimo = novoJogo;
     }
 
-    public boolean vazio(){
+    /**
+     * Método para informa se a lista esta
+     * 
+     * @return Booleano
+     */
+    public boolean vazio() {
         return (ultimo == primeiro);
     }
 
-    public Jogos imprimir(){
+    /**
+     * Método para imprimir a Lista
+     * 
+     * @return Retorna os dados
+     */
+    public Jogos imprimir() {
         if (vazio()) {
             return null;
-        }
-        else{
+        } else {
             ElemJogos aux = primeiro.proximo;
             primeiro.proximo = aux.proximo;
             if (aux == ultimo) {
                 ultimo = primeiro;
-            }
-            else{
+            } else {
                 aux.proximo = null;
             }
             return aux.dadosJogos;
